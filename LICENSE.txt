@@ -1,4 +1,4 @@
-Copyright (c) <date> <your name here>
+Copyright (c) 10.7.2014 Peter Dubec
 
 MIT License
 
