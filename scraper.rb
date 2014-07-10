@@ -40,7 +40,8 @@ XLS_AGENCIES_LINKS.each do |xls_link|
             state: row[11],
             zip: row[12],
             phone: row[16],
-            source_url: xls_link
+            source_url: xls_link,
+            sample_date: Time.now
         }
        #puts JSON.dump(data)
       end
@@ -63,7 +64,8 @@ XLS_INDIVIDUALS_LINKS.each do |xls_link|
           zip: row[10],
           phone: row[12],
           email: row[14],
-          source_url: xls_link
+          source_url: xls_link,
+          sample_date: Time.now
       }
       puts JSON.dump(data)
     end
