@@ -1,0 +1,14 @@
+{
+  "bot_id": "mas_licences",
+  "title": "My simple bot",
+  "description": "This is a simple bot",
+  "language": "ruby",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "number"
+  ],
+  "files": [
+    "scraper.rb"
+  ],
+  "frequency": "monthly"
+}
